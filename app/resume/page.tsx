@@ -1,19 +1,14 @@
 'use client';
-import { useState } from 'react';
+
 import { 
   Box, 
   Paper, 
   Button, 
-  CircularProgress, 
-  Alert,
-  Typography 
 } from '@mui/material';
 import { Download } from '@mui/icons-material';
 
 // Make sure there's only one default export
 export default function ResumePage() {  // Changed function name to be more specific
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(false);
 
   const handleDownload = () => {
     const link = document.createElement('a');

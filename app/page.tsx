@@ -1,5 +1,5 @@
 'use client';
-import { Box, Typography, Button, Grid, Paper, IconButton } from '@mui/material';
+import { Box, Typography, Button, Grid, IconButton } from '@mui/material';
 import { GitHub, LinkedIn, Email } from '@mui/icons-material';
 
 export default function Home() {
@@ -18,13 +18,13 @@ export default function Home() {
                 whiteSpace: 'nowrap'
               }}
             >
-              Hi, I'm <span style={{ color: '#90caf9' }}>Isaac Shipman</span>
+              Hi, I&apos;m <span style={{ color: '#90caf9' }}>Isaac Shipman</span>
             </Typography>
             <Typography variant="h5" color="text.secondary" paragraph>
               Aspiring Software Engineer
             </Typography>
             <Typography variant="body1" paragraph>
-            I'm constantly exploring new technologies and working on projects that challenge my skills. 
+            I&apos;m constantly exploring new technologies and working on projects that challenge my skills. 
   Currently in my third year of studies, I combine academic excellence with practical project experience, 
   always eager to apply my knowledge to real-world problems.
             </Typography>

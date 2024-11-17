@@ -15,7 +15,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import path from 'path';
+
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
