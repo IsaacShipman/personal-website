@@ -25,7 +25,8 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'Projects', path: '/projects' },
     { name: 'Contact', path: '/contact' },
-    { name: 'Resume', path: '/resume'}
+    { name: 'Resume', path: '/resume'},
+    { name: 'Transcript', path:'/transcript'}
   ];
 
   const handleDrawerToggle = () => {
